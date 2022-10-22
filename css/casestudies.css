@@ -80,6 +80,11 @@ h3 {
 
 }
 
+.backend-imgs img:hover,
+.frontend-imgs img:hover {
+    transform: scale(1.3);
+}
+
 .moviesCS-main a {
     text-decoration: none;
     color: #10a8aa;
