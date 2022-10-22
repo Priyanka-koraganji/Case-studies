@@ -1,0 +1,170 @@
+/* case studies*/
+
+body {
+    font-family: gloria;
+}
+
+.moviesCS-header {
+    color: rgb(48, 47, 47);
+    margin: 0;
+    padding: 8vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.moviesCS-main {
+    padding: 5vh 20vh;
+    font-size: 1.2rem;
+}
+
+.moviesCS-main h2,
+h3 {
+    color: rgb(48, 47, 47);
+}
+
+.overview {
+    width: 60%;
+    background-color: rgb(229, 225, 225);
+    padding: 5vh;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.purpose {
+    width: 60%;
+    background-color: rgb(229, 225, 225);
+    padding: 5vh;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-bottom: 5vh;
+}
+
+.duration {
+    width: 80%;
+    background-color: rgb(229, 225, 225);
+    padding: 5vh;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+.server-side h2 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.server-side,
+.client-side {
+    margin-bottom: 5vh;
+}
+
+/* .client-side {
+    position: relative;
+    left: 15%;
+} */
+
+.backend-imgs,
+.frontend-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(229, 225, 225);
+    padding: 5vh;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.backend-imgs img,
+.frontend-imgs img {
+    padding: 10px;
+
+}
+
+.moviesCS-main a {
+    text-decoration: none;
+    color: #10a8aa;
+}
+
+.moviesCS-main a:hover {
+    color: rgb(7, 247, 247);
+}
+
+.tools {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(229, 225, 225);
+    padding: 5vh;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.moviesCS-tools ul {
+    display: flex;
+}
+
+.moviesCS-tools li {
+    margin-right: 35px;
+    list-style-type: circle;
+}
+
+.footer-page {
+    /* border-top: 1px solid lightgray; */
+    padding: 5vh;
+    text-align: center;
+}
+
+.footer {
+    margin: 5vh 15vh;
+    color: rgb(48, 47, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer>div {
+    width: 50%;
+}
+
+.footer-div {
+    border-right: 1px solid lightgray;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me a {
+    color: rgb(48, 47, 47);
+    margin-bottom: 2%;
+}
+
+.contact-details {
+    margin-left: 2%;
+
+}
+
+.contact-me a:visited {
+    color: rgb(48, 47, 47);
+}
+
+.footer-page h2 {
+    /* margin: 2%; */
+    /* padding-top: 4%; */
+    padding: 1% 0;
+    /* font-weight: bold; */
+}
+
+.footer h6 {
+    margin-bottom: 2vh;
+}
+
+.footer-icons {
+    padding-bottom: 5%;
+
+}
+
+.footer-icons a {
+    text-decoration: none;
+    padding: 0.5%;
+}
