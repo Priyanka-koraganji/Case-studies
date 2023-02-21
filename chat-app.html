@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chat App Case Study</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="css/casestudies.css">
+    <link rel="shortcut icon" href="img/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="moviesCS-header">
+        <h1>Case Study for Chat App</h1>
+    </div>
+    <div class="moviesCS-main">
+        <div class="overview">
+            <h2>Overview</h2>
+            <p>To build a chat app for mobile devices using React Native. The app will provide users with a chat
+                interface and options to share images and their location.
+            </p>
+        </div>
+
+        <div class="purpose">
+            <h2>Purpose and Context</h2>
+            <p>Chat App was a personal project I built as a part of my web development course at CareerFoundry.
+                The app will be optimized for both Android and iOS devices. You will use Expo to develop the app and
+                Google Firestore to store the chat messages.
+            </p>
+        </div>
+        <div class="duration">
+            <h2>Duration</h2>
+            <p>It took me over 3 weeks to complete both the total project, as React Native is very new topic, It took me
+                15days just to know the concepts and terminology.
+            </p>
+            <h2>Features of the app:</h2>
+            <ol>
+                <li>A page where users can enter their name and choose a background color for the chat screen before
+                    joining the chat.</li>
+                <li>A page displaying the conversation, as well as an input field and submit button. </li>
+                <li>The chat must provide users with two additional communication features: sending images and location
+                    data.</li>
+                <li>Data gets stored online and offline.</li>
+            </ol>
+        </div>
+        <div class="server-side">
+            <h2>Approach</h2>
+
+            <p>It was developed with React Native, supported by Expo. I have installed Expo app in my phone for testing.
+                I have used Gifted App to build my app components.
+                There are mainly two screens for this app, which are Start screen and Chat screen. The start screen has
+                options to enter your name and choose the background color. Then chat screen displays your name and
+                there is a chat box, where you can send messages, and also can attach photos, use camera and even send
+                location. Then I have used Firebase to store the messages. I have used Async storage to store the
+                messages on client-side. Then I have used rendercustomActions component to get access to Camera, take
+                Photo and to send Location.
+            </p>
+            <p>Checkout the code on <a href="https://github.com/Priyanka-koraganji/Chat-App.git">Github</a></p>
+
+
+        </div>
+        <div class="backend-imgs chat-img">
+            <img src="imgs/chat-app.png" height="400px">
+
+        </div>
+
+        <div class="tools">
+            <h2>Tools Used</h2>
+            <div class="moviesCS-tools">
+                <ul>
+                    <li>React</li>
+                    <li>Gifted chat</li>
+                    <li>Expo</li>
+                    <li>Google Firebase</li>
+                    <li>IOS and Android simulators</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class='footer-page' id="contact">
+        <h2>Want to get in touch?</h2>
+        <div class='footer'>
+            <div class='footer-div'>
+                <h6>Find me on</h6>
+                <div class='footer-icons'>
+                    <a href='https://github.com/Priyanka-koraganji'><img src='imgs/Github copy.svg' width="30px"
+                            height="30px" alt='github icon'></img> </a>
+                    <a href='https://www.linkedin.com/in/priyanka-koraganji'><img src='imgs/linkedin.svg' width="40px"
+                            height="35px" alt='linkedin icon'></img> </a>
+                    <a href='https://medium.com/@priya.koraganji04'><img src='imgs/medium.svg' width="40px"
+                            height="40px" alt='linkedin icon'></img> </a>
+                    <a href='https://twitter.com/priya_koraganji'><img src='imgs/twitter.svg' width="30px" height="30px"
+                            alt='linkedin icon'></img> </a>
+                </div>
+            </div>
+            <div class='contact-me'>
+                <h6>Contact me</h6>
+                <a href='mailto:priyanka.koraganji92@gmail.com'> <img width="30px" height="30px"
+                        src='imgs/email.png'></img><span
+                        class='contact-details'>priyanka.koraganji92@gmail.com</span></a>
+                <a href='tel:4059385511'> <img width="30px" height="30px" src='imgs/phone-call.png'></img><span
+                        class='contact-details'>(405) 938 5511</span></a>
+            </div>
+        </div>
+
+    </div>
+</body>
