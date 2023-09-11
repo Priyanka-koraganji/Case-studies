@@ -77,16 +77,20 @@ h3 {
 
 .backend-imgs img,
 .frontend-imgs img,
-.Pokedex-details img,
+.Pokedex-details img {
+    padding: 10px;
+    width: 40%;
+
+}
+
 .Pokedex-details p {
     padding: 10px;
-
 }
 
 .backend-imgs img:hover,
 .frontend-imgs img:hover,
 .Pokedex-details img:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .chat-img {
@@ -116,6 +120,7 @@ h3 {
 
 .moviesCS-tools ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .moviesCS-tools li {
@@ -185,4 +190,78 @@ h3 {
 .footer-icons a {
     text-decoration: none;
     padding: 0.5%;
+}
+
+@media screen and (max-width: 992px) {
+    .moviesCS-main {
+        padding: 5vh;
+        font-size: 1rem;
+    }
+
+    .overview,
+    .purpose,
+    .duration,
+    .tools {
+        width: 100%;
+    }
+
+    .purpose {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer>div {
+        width: 100%;
+    }
+
+    .footer-div {
+        border: none;
+    }
+
+    .backend-imgs img:hover,
+    .frontend-imgs img:hover,
+    .Pokedex-details img:hover {
+        transform: none
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .moviesCS-main {
+        padding: 5vh;
+        font-size: 1rem;
+    }
+
+    .overview,
+    .purpose,
+    .duration,
+    .tools {
+        width: 100%;
+    }
+
+    .purpose {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer>div {
+        width: 100%;
+    }
+
+    .footer-div {
+        border: none;
+    }
+
+    .backend-imgs img:hover,
+    .frontend-imgs img:hover,
+    .Pokedex-details img:hover {
+        transform: none
+    }
 }
